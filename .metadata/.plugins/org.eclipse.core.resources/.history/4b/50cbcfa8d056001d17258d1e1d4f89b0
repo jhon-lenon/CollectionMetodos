@@ -1,0 +1,43 @@
+package Set;
+
+/** Dadas as seguintes informações sobre minhas series favoritas;
+crie um conjunto e ordene esse conjunto exibindo:
+(Nome; Genero; Tempo de Episódio);
+
+serie1 = nome: got, genenero: fantasia, tempoDeEpisodio: 60
+serie2 = nome: dark, genenero: drama, tempoDeEpisodio: 60
+serie3 = nome: that '70s show, comedia: fantasia, tempoDeEpisodio: 25
+*/
+
+public class ExemploOrdenacaoSet {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class series {
+	private String serie1;
+	private String serie2;
+	private String serie3;
+	
+	public series(String serie1, String serie2, String serie3) {
+		super();
+		this.serie1 = serie1;
+		this.serie2 = serie2;
+		this.serie3 = serie3;		
+	}
+
+	public String getSerie1() {
+		return serie1;
+	}
+
+	public String getSerie2() {
+		return serie2;
+	}
+
+	public String getSerie3() {
+		return serie3;
+	}
+	
+}

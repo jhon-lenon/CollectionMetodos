@@ -1,0 +1,22 @@
+package List;
+
+class Exercicio {
+	public static void main(String[] args) {
+		
+		/** 1º Resolva esses exercicios utilizando a implementação linkedlist*/
+		System.out.println("Resolva esses exercicios utilizando a implementação linkedlist: ");
+		
+		/** 2º Crie uma lista chamada nota2 e coloque todos os elementos da list ArrayList nessa nova lista:*/
+		System.out.println("Crie uma lista chamada nota2 e coloque todos os elementos da list ArrayList nessa nova lista: ");
+		
+		/** 3º Mostra a primeira nota da primeira lista sem remove-lo:*/
+		System.out.println("Mostra a primeira nota da primeira lista sem remove-lo: ");
+		
+		/** 4º Mostra a primeira lista da nova nota removendo-o:*/
+		System.out.println("Mostra a primeira lista da nova nota removendo-o: ");
+		
+		
+		
+	}
+
+}

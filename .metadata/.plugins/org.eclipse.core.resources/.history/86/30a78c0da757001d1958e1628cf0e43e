@@ -1,0 +1,29 @@
+package List;
+
+import java.lang.foreign.Addressable;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+Crie uma list e execute as seguintes operações:
+*/
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+		
+/** --------- Crie uma List com 5 Nomes; ---------*/
+		
+		List<String> nomes = new ArrayList<>();
+		nomes.add("Juliana");
+		nomes.add("Pedro");
+		nomes.add("Carlos");
+		nomes.add("Larissa");
+		nomes.add("João");
+		
+		System.out.println(nomes);
+		System.out.println("");
+		
+		
+	}
+
+}
